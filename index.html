@@ -1,0 +1,568 @@
+<!doctype html>
+<!--[if IE 9]> <html class="no-js ie9 fixed-layout" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js " lang="en"> <!--<![endif]-->
+<head>
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- Mobile Meta -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+    <!-- Site Meta -->
+    <title>Edulogy</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+	<!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700,900" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i" rel="stylesheet"> 
+	
+    <!-- Custom & Default Styles -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="style.css">
+
+	<!--[if lt IE 9]>
+		<script src="js/vendor/html5shiv.min.js"></script>
+		<script src="js/vendor/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+<body>  
+
+    <!-- LOADER -->
+    <div id="preloader">
+        <img class="preloader" src="images/loader.gif" alt="">
+    </div><!-- end loader -->
+    <!-- END LOADER -->
+
+    <div id="wrapper">
+        <!-- BEGIN # MODAL LOGIN -->
+        <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Begin # DIV Form -->
+                    <div id="div-forms">
+                        <form id="login-form">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span class="flaticon-add" aria-hidden="true"></span>
+                            </button>
+                            <div class="modal-body">
+                                <input class="form-control" type="text" placeholder="What you are looking for?" required>
+                            </div>
+                        </form><!-- End # Login Form -->
+                    </div><!-- End # DIV Form -->
+                </div>
+            </div>
+        </div>
+        <!-- END # MODAL LOGIN -->
+
+        <header class="header">
+            <div class="topbar clearfix">
+                <div class="container">
+                    <div class="row-fluid">
+                        <div class="col-md-6 col-sm-6 text-left">
+                        </div><!-- end left -->
+                        <div class="col-md-6 col-sm-6 hidden-xs text-right">
+                            <div class="social">
+                                <a class="facebook" href="#" data-tooltip="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook"></i></a>              
+                                <a class="twitter" href="#" data-tooltip="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter"></i></a>
+                                <a class="google" href="#" data-tooltip="tooltip" data-placement="bottom" title="Google Plus"><i class="fa fa-google-plus"></i></a>
+                                <a class="linkedin" href="#" data-tooltip="tooltip" data-placement="bottom" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+                                <a class="pinterest" href="#" data-tooltip="tooltip" data-placement="bottom" title="Pinterest"><i class="fa fa-pinterest"></i></a>
+                            </div><!-- end social -->
+                        </div><!-- end left -->
+                    </div><!-- end row -->
+                </div><!-- end container -->
+            </div><!-- end topbar -->
+
+            <div class="container">
+                <nav class="navbar navbar-default yamm">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <div class="logo-normal">
+                            <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt=""></a>
+                        </div>
+                    </div>
+
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="index.html">Home</a></li>
+                            <li class="yamm-fw yamm-half">
+                                <a href="blog-3.html" class="active">Tutorials</a>
+                            </li>
+                            <li class="hassubmenu">
+                                <a href="shop.html" class="active">Shop</a>
+                            </li>
+                            <li class="hassubmenu">
+                                <a href="blog-2.html" class="active">Blog</a>
+                            </li>
+                            <li><a href="events.html">XRF/Oxide Results</a></li>
+                            <li><a href="page-contact.html">Contact</a></li>
+                            <li class="iconitem"><a href="#" data-toggle="modal" data-target="#login-modal"><i class="fa fa-search"></i></a></li>
+                            <li class="iconitem"><a class="shopicon" href="shop-cart.html"><i class="fa fa-shopping-basket"></i> &nbsp;(0)</a></li>
+                        </ul>
+                    </div>
+                </nav><!-- end navbar -->
+            </div><!-- end container -->
+        </header>
+
+        <section id="home" class="video-section js-height-full">
+            <div class="overlay"></div>
+            <div class="home-text-wrapper relative container">
+                <div class="home-message">
+                    <p>AuroSync Company - CeraD Ceramic Discovery</p>
+                    <small>Unlock the world of ceramics with AuroSync! Dive into CeraD, our Ceramic Discovery platform, where knowledge meets innovation. From hands-on tutorials and groundbreaking research to artisan products and industry collaborations, we’re your gateway to mastering ceramic engineering and exploring its limitless potential.</small>
+                    <div class="btn-wrapper">
+                        <div class="text-center">
+                            <a href="#" class="btn btn-primary wow slideInLeft">Read More</a> &nbsp;&nbsp;&nbsp;<a href="#" class="btn btn-default wow slideInRight">Buy Now</a>
+                        </div>
+                    </div><!-- end row -->
+                </div>
+            </div>
+            <div class="slider-bottom">
+                <span>Explore <i class="fa fa-angle-down"></i></span>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 hidden-sm hidden-xs">
+                        <div class="custom-module">
+                            <img src="upload/device_01.png" alt="" class="img-responsive wow slideInLeft">
+                        </div><!-- end module -->
+                    </div><!-- end col -->
+                    <div class="col-md-8">
+                        <div class="custom-module p40l">
+                            <h2>We are AuroSync Company<mark> CeraD Ceramic Discovery</mark> from
+                            Philippines. Do beautiful and easy-to-use Products <br>
+                            and all designed to inspire and educate</h2>
+
+                            <p>We blend hands-on tutorials, the latest research, and traditional ceramic artistry to create an engaging, accessible experience for learners and enthusiasts alike.".</p>
+
+                            <hr class="invis">
+
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 first">
+                                    <ul class="check">
+                                        <li>Ceramic Material Analysis</li>
+                                        <li>XRF/Oxide Composition Testing</li>
+                                        <li>Clay Preparation Techniques</li>
+                                        <li>Ceramic Product Design</li>
+                                        <li>Pottery and Wheel-Throwing</li>
+                                    </ul><!-- end check -->
+                                </div><!-- end col-lg-4 -->
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                    <ul class="check">
+                                        <li>Glazing and Firing Processes</li>
+                                        <li>Ceramic 3D Modeling</li>
+                                        <li>Material Science Fundamentals</li>
+                                        <li>Kiln Operation and Safety</li>
+                                        <li>Slip Casting and Molding</li>
+                                    </ul><!-- end check -->    
+                                </div><!-- end col-lg-4 -->
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 last">
+                                    <ul class="check">
+                                        <li>Ceramic Restoration and Repair</li>
+                                        <li>Testing for Durability and Heat Resistance</li>
+                                        <li>Eco-Friendly Ceramic Practices</li>
+                                        <li>Research and Data Interpretation</li>
+                                        
+                                    </ul><!-- end check -->
+                                </div><!-- end col-lg-4 --> 
+                            </div><!-- end row -->   
+
+                            <hr class="invis">
+
+                            <div class="btn-wrapper">
+                                <a href="#" class="btn btn-primary">Learn More About us</a>
+                            </div>
+
+                        </div><!-- end module -->
+                    </div><!-- end col -->
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </section>
+
+        <section class="section gb">
+            <div class="container">
+                <div class="section-title text-center">
+                    <h3>Recent Tutorials</h3>
+                    <p>Our Tutorials offer hands-on techniques, material science insights, and design skills to guide you through every step of ceramic engineering—from basics to advanced methods.</p>
+                </div><!-- end title -->
+
+                <div id="owl-01" class="owl-carousel owl-theme owl-theme-01">
+                    <div class="caro-item">
+                        <div class="course-box">
+                            <div class="image-wrap entry">
+                                <img src="upload/course_01.jpg" alt="" class="img-responsive">
+                                <div class="magnifier">
+                                     <a href="#" title=""><i class="flaticon-add"></i></a>
+                                </div>
+                            </div><!-- end image-wrap -->
+                            <div class="course-details">
+                                <h4>
+                                    <small>Ceramics</small>
+                                    <a href="#" title="">Introduction to Ceramic Materials</a>
+                                </h4>
+                                <p>Basics of ceramic materials, types, and their properties.</p>
+                            </div><!-- end details -->
+                            <div class="course-footer clearfix">
+                                <div class="pull-left">
+                                    <ul class="list-inline">
+                                        <li><a href="#"><i class="fa fa-user"></i> 21</a></li>
+                                        <li><a href="#"><i class="fa fa-clock-o"></i> 15 Min.</a></li>
+                                    </ul>
+                                </div><!-- end left -->
+                            </div><!-- end footer -->
+                        </div><!-- end box -->
+                    </div><!-- end col -->
+
+                    <div class="caro-item">
+                        <div class="course-box">
+                            <div class="image-wrap entry">
+                                <img src="upload/course_02.jpg" alt="" class="img-responsive">
+                                <div class="magnifier">
+                                     <a href="#" title=""><i class="flaticon-add"></i></a>
+                                </div>
+                            </div><!-- end image-wrap -->
+                            <div class="course-details">
+                                <h4>
+                                    <small>Analysis</small>
+                                    <a href="#" title="">How to Perform XRF Analysis for Clay Samples</a>
+                                </h4>
+                                <p>Step-by-step guide to conducting XRF analysis. </p>
+                            </div><!-- end details -->
+                            <div class="course-footer clearfix">
+                                <div class="pull-left">
+                                    <ul class="list-inline">
+                                        <li><a href="#"><i class="fa fa-user"></i> 41</a></li>
+                                        <li><a href="#"><i class="fa fa-clock-o"></i> 33 Min.</a></li>
+                                    </ul>
+                                </div><!-- end left -->
+                            </div><!-- end footer -->
+                        </div><!-- end box -->
+                    </div><!-- end col -->
+
+                    <div class="caro-item">
+                        <div class="course-box">
+                            <div class="image-wrap entry">
+                                <img src="upload/course_03.jpg" alt="" class="img-responsive">
+                                <div class="magnifier">
+                                     <a href="#" title=""><i class="flaticon-add"></i></a>
+                                </div>
+                            </div><!-- end image-wrap -->
+                            <div class="course-details">
+                                <h4>
+                                    <small>Processes</small>
+                                    <a href="#" title="">Preparing and Processing Clay</a>
+                                </h4>
+                                <p>Techniques for preparing raw clay for ceramic production.</p>
+                            </div><!-- end details -->
+                            <div class="course-footer clearfix">
+                                <div class="pull-left">
+                                    <ul class="list-inline">
+                                        <li><a href="#"><i class="fa fa-user"></i> 35</a></li>
+                                        <li><a href="#"><i class="fa fa-clock-o"></i> 1 Hrs.</a></li>
+                                    </ul>
+                                </div><!-- end left -->
+                            </div><!-- end footer -->
+                        </div><!-- end box -->
+                    </div><!-- end col -->
+
+                    <div class="caro-item">
+                        <div class="course-box">
+                            <div class="image-wrap entry">
+                                <img src="upload/course_04.jpg" alt="" class="img-responsive">
+                                <div class="magnifier">
+                                     <a href="#" title=""><i class="flaticon-add"></i></a>
+                                </div>
+                            </div><!-- end image-wrap -->
+                            <div class="course-details">
+                                <h4>
+                                    <small>Pottery</small>
+                                    <a href="#" title="">Throwing on the Potter's Wheel: Beginner's Guide</a>
+                                </h4>
+                                <p>An introduction to wheel-throwing techniques.</p>
+                            </div><!-- end details -->
+                            <div class="course-footer clearfix">
+                                <div class="pull-left">
+                                    <ul class="list-inline">
+                                        <li><a href="#"><i class="fa fa-user"></i> 35</a></li>
+                                        <li><a href="#"><i class="fa fa-clock-o"></i> 45 Min.</a></li>
+                                    </ul>
+                                </div><!-- end left -->
+                            </div><!-- end footer -->
+                        </div><!-- end box -->
+                    </div><!-- end col -->
+
+                    <div class="caro-item">
+                        <div class="course-box">
+                            <div class="image-wrap entry">
+                                <img src="upload/course_05.jpg" alt="" class="img-responsive">
+                                <div class="magnifier">
+                                     <a href="#" title=""><i class="flaticon-add"></i></a>
+                                </div>
+                            </div><!-- end image-wrap -->
+                            <div class="course-details">
+                                <h4>
+                                    <small>Safety</small>
+                                    <a href="#" title="">Introduction to Kiln Safety and Operation</a>
+                                </h4>
+                                <p>Essential safety practices for kiln usage.</p>
+                            </div><!-- end details -->
+                            <div class="course-footer clearfix">
+                                <div class="pull-left">
+                                    <ul class="list-inline">
+                                        <li><a href="#"><i class="fa fa-user"></i> 21</a></li>
+                                        <li><a href="#"><i class="fa fa-clock-o"></i> 15 Min.</a></li>
+                                    </ul>
+                                </div><!-- end left -->
+                            </div><!-- end footer -->
+                        </div><!-- end box -->
+                    </div><!-- end col -->
+                </div><!-- end row -->
+
+                <hr class="invis">
+
+                <div class="section-button text-center">
+                    <a href="blog-3.html" class="btn btn-primary">View All Tutorials</a>
+                </div>
+            </div><!-- end container -->
+        </section>
+
+        <section class="section db">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4">
+                        <div class="stat-count">
+                            <h4 class="stat-timer">1230</h4>
+                            <h3><i class="flaticon-black-graduation-cap-tool-of-university-student-for-head"></i> Happy Students</h3>
+                            <p>Quisque porttitor eros quis leo pulvinar, at hendrerit sapien iaculis. </p>
+                        </div><!-- stat-count -->
+                    </div><!-- end col -->
+
+                    <div class="col-lg-4 col-md-4">
+                        <div class="stat-count">
+                            <h4 class="stat-timer">331</h4>
+                            <h3><i class="flaticon-online-course"></i> Tutorials Done</h3>
+                            <p>Quisque porttitor eros quis leo pulvinar, at hendrerit sapien iaculis. </p>
+                        </div><!-- stat-count -->
+                    </div><!-- end col -->
+
+                    <div class="col-lg-4 col-md-4">
+                        <div class="stat-count">
+                            <h4 class="stat-timer">8901</h4>
+                            <h3><i class="flaticon-coffee-cup"></i> Ordered Products</h3>
+                            <p>Quisque porttitor eros quis leo pulvinar, at hendrerit sapien iaculis. </p>
+                        </div><!-- stat-count -->
+                    </div><!-- end col -->
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </section>
+
+        <section class="section gb">
+            <div class="container">
+                <div class="section-title text-center">
+                    <h3>Recent Blogs</h3>
+                    <p>Maecenas sit amet tristique turpis. Quisque porttitor eros quis leo pulvinar, at hendrerit sapien iaculis. Donec consectetur accumsan arcu, sit amet fringilla ex ultricies.</p>
+                </div><!-- end title -->
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-12">
+                        <div class="blog-box">
+                            <div class="image-wrap entry">
+                                <img src="upload/blog_01.jpeg" alt="" class="img-responsive">
+                                <div class="magnifier">
+                                     <a href="blog-single.html" title=""><i class="flaticon-add"></i></a>
+                                </div>
+                            </div><!-- end image-wrap -->
+
+                            <div class="blog-desc">
+                                <h4><a href="blog-single.html">How to learn perfect code with Javascript</a></h4>
+                                <p>Praesent at suscipit ligula. Suspendisse pre neque, quis suscipit enim. sed maximus, mia auctor.</p>
+                            </div><!-- end blog-desc -->
+
+                            <div class="post-meta">
+                                <ul class="list-inline">
+                                    <li><a href="#">21 March 2017</a></li>
+                                    <li><a href="#">by WP Destek</a></li>
+                                    <li><a href="#">14 Share</a></li>
+                                </ul>
+                            </div><!-- end post-meta -->
+                        </div><!-- end blog -->
+                    </div><!-- end col -->
+
+                    <div class="col-lg-4 col-md-12">
+                        <div class="blog-box">
+                            <div class="image-wrap entry">
+                                <img src="upload/blog_02.jpeg" alt="" class="img-responsive">
+                                <div class="magnifier">
+                                     <a href="blog-single.html" title=""><i class="flaticon-add"></i></a>
+                                </div>
+                            </div><!-- end image-wrap -->
+
+                            <div class="blog-desc">
+                                <h4><a href="blog-single.html">The most suitable web design & development tutorials</a></h4>
+                                <p>Sed suscipit neque in erat posuere tristique aliquam porta vestibulum. Cras placerat tincidunt. </p>
+                            </div><!-- end blog-desc -->
+
+                            <div class="post-meta">
+                                <ul class="list-inline">
+                                    <li><a href="#">20 March 2017</a></li>
+                                    <li><a href="#">by WP Destek</a></li>
+                                    <li><a href="#">11 Share</a></li>
+                                </ul>
+                            </div><!-- end post-meta -->
+                        </div><!-- end blog -->
+                    </div><!-- end col -->
+
+                    <div class="col-lg-4 col-md-12">
+                        <div class="blog-box">
+                            <div class="image-wrap entry">
+                                <img src="upload/blog_03.jpeg" alt="" class="img-responsive">
+                                <div class="magnifier">
+                                     <a href="blog-single.html" title=""><i class="flaticon-add"></i></a>
+                                </div>
+                            </div><!-- end image-wrap -->
+
+                            <div class="blog-desc">
+                                <h4><a href="blog-single.html">Design for all mobile devices! This is name "responsive"</a></h4>
+                                <p>Suspendisse scelerisque ex ac mattis molestie vel enim ut massa placerat faucibus sed ut dui vivamus. </p>
+                            </div><!-- end blog-desc -->
+
+                            <div class="post-meta">
+                                <ul class="list-inline">
+                                    <li><a href="#">19 March 2017</a></li>
+                                    <li><a href="#">by WP Destek</a></li>
+                                    <li><a href="#">44 Share</a></li>
+                                </ul>
+                            </div><!-- end post-meta -->
+                        </div><!-- end blog -->
+                    </div><!-- end col -->
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </section>
+
+        <section class="section bgcolor1">
+            <div class="container">
+              <div class="row callout">
+                <div class="col-md-12 text-center">
+                  <h4>Partnering with Industry Leaders</h4>
+                  <img src="upload/murata.png" alt="Partnership logo" class="img-responsive" style="max-width: 300px; margin: 20px auto;">
+                  <img src="upload/samsung.png" alt="Partnership logo" class="img-responsive" style="max-width: 300px; margin: 20px auto;">
+                  <p class="lead">We collaborate with companies like Samsung and Murata to bring you the best learning experience.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+        <footer class="section footer noover">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4">
+                        <div class="widget clearfix">
+                            <h3 class="widget-title">Subscribe Our Newsletter</h3>
+                            <div class="newsletter-widget">
+                                <p>You can opt out of our newsletters at any time.<br> See our <a href="#">privacy policy</a>.</p>
+                                <form class="form-inline" role="search">
+                                    <div class="form-1">
+                                        <input type="text" class="form-control" placeholder="Enter email here..">
+                                        <button type="submit" class="btn btn-primary"><i class="fa fa-paper-plane-o"></i></button>
+                                    </div>
+                                </form>
+                                <img src="images/payments.png" alt="" class="img-responsive">
+                            </div><!-- end newsletter -->
+                        </div><!-- end widget -->
+                    </div><!-- end col -->
+
+                    <div class="col-lg-3 col-md-3">
+                        <div class="widget clearfix">
+                            <h3 class="widget-title">Join us today</h3>
+                            <p>Would you like to earn your profits by joining our team? Join us without losing time.</p>
+                            <a href="#" class="readmore">Became a Teacher</a>
+                        </div><!-- end widget -->
+                    </div><!-- end col -->
+
+                    <div class="col-lg-3 col-md-3">
+                        <div class="widget clearfix">
+                            <h3 class="widget-title">Popular Tags</h3>
+                            <div class="tags-widget">   
+                                <ul class="list-inline">
+                                    <li><a href="#">CeramicEngineering</a></li>
+                                    <li><a href="#">ClayProcessing</a></li>
+                                    <li><a href="#">MaterialScience</a></li>
+                                    <li><a href="#">PotteryTechniques</a></li>
+                                    <li><a href="#">XRFAnalysis</a></li>
+                                    <li><a href="#">KilnSafety</a></li>
+                                    <li><a href="#">GlazingBasics</a></li>
+                                    <li><a href="#">CeramicDesign</a></li>
+                                    <li><a href="#">3DModeling</a></li>
+                                </ul>
+                            </div><!-- end list-widget -->
+                        </div><!-- end widget -->
+                    </div><!-- end col -->
+
+                    <div class="col-lg-2 col-md-2">
+                        <div class="widget clearfix">
+                            <h3 class="widget-title">Support</h3>
+                            <div class="list-widget">   
+                                <ul>
+                                    <li><a href="#">Terms of Use</a></li>
+                                    <li><a href="#">Copyrights</a></li>
+                                    <li><a href="#">Create a Ticket</a></li>
+                                    <li><a href="#">Pricing & Plans</a></li>
+                                    <li><a href="#">Carrier</a></li>
+                                    <li><a href="#">Trademark</a></li>
+                                </ul>
+                            </div><!-- end list-widget -->
+                        </div><!-- end widget -->
+                    </div><!-- end col -->
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </footer><!-- end footer -->
+
+        <div class="copyrights">
+            <div class="container">
+                <div class="clearfix">
+                    <div class="pull-left">
+                    </div>
+
+                    <div class="pull-right">
+                        <div class="footer-links">
+                            <ul class="list-inline">
+                                <li> <a href="https://html.design"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- end container -->
+        </div><!-- end copy -->
+    </div><!-- end wrapper -->
+
+    <!-- jQuery Files -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="js/animate.js"></script>
+    <script src="js/custom.js"></script>
+    <!-- VIDEO BG PLUGINS -->
+    <script src="js/videobg.js"></script>
+
+</body>
+</html>
